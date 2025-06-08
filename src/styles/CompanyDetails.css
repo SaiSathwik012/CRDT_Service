@@ -110,6 +110,15 @@
   gap: 20px;
 }
 
+.cont li{
+  padding: 10px;
+}
+
+li img{
+  padding-right: 10px;
+}
+
+
 .social-icons {
   display: flex;
   gap: 15px;

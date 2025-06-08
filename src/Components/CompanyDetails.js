@@ -2,6 +2,9 @@ import React from 'react';
 import '../styles/CompanyDetails.css';
 import { FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import compLogo from '../assets/logos/73f58b96-4ae6-47d3-bbbe-408d6752e9c6-converted 1@2x.png'
+import logo1 from '../assets/logos/Vector (1).png'
+import logo2 from '../assets/logos/Vector (2).png'
+import logo3 from '../assets/logos/Group 1261157640.png'
 const CompanyDetails = () => {
   return (
     <footer className="footer">
@@ -11,7 +14,16 @@ const CompanyDetails = () => {
             <img src={compLogo} alt="logo" />
             <h3>Company</h3>
           </div>
-          <p>We help students to grow and gain certifications from free YouTube content.</p>
+          <p>Connecting fresh talent with leading
+          tech companies. Your gateway to a successful tech career.</p>
+          <div>
+            <ul className='cont'>
+              <li><img src={logo1} alt="img1" />  contact@crtdtech.com</li>
+              <li><img src={logo2} alt="img1" />  +91 98765 43210</li>
+              <li><img src={logo3} alt="img1" />  Bangalore, India</li>
+              </ul>
+          </div>
+          
         </div>
 
         <div className="footer-section">
